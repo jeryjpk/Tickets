@@ -1,0 +1,32 @@
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80vh;
+}
+
+.homePage .homePage__infoForm {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 13px;
+}
+
+.homePage__infoForm div:nth-child(2){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.homePage__infoForm input, .homePage__infoForm select {
+    margin-left: 10px;
+}
+
+.inputPrimary {
+    padding: 5px 5px;
+    background-color: rgb(253, 253, 255);
+    border: none;
+}
+
+.inputPrimary:focus {
+    outline: none;
+}

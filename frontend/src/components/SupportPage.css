@@ -1,0 +1,56 @@
+.supportPage {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #eee;
+    padding: 20px 0;
+}
+
+.supportPage__left {
+    flex: 0.4;
+}
+
+.supportPage__left > h2 {
+    text-align: center;
+}
+
+.supportPage__right > h2 {
+    text-align: center;
+}
+
+.supportPage__right {
+    flex: 1;
+}
+
+.supportPage__pendingUl > li {
+    margin: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.supportPage__pendingTicketCard {
+    display: flex;
+}
+
+.supportPage__pendingTicketCard .supportPage__cardLeft{
+    flex: 0.7;
+}
+
+.supportPage__pendingTicketCard .supportPage__cardRight {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supportPage__left {
+    overflow: scroll;
+}
+
+.supportPage__acceptedTicketCard {
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
